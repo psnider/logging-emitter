@@ -2,10 +2,10 @@
   "name": "logging-emitter",
   "version": "1.0.0",
   "description": "An EventEmitter that logs emitted events.",
-  "main": "logging-emitter",
+  "main": "logging-emitter.js",
   "scripts": {
     "build": "tsc --project src; tsc --project test",
-    "clean": "rm -f logging-emitter.js",
+    "clean": "rm -f logging-emitter.js logging-emitter.tests.js",
     "test": "NODE_PATH=$NODEPATH:. mocha test/logging-emitter.tests.js"
   },
   "repository": {

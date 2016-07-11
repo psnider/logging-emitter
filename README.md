@@ -1,6 +1,6 @@
 # logging-emitter
 ## Summary
-This module logs events emitted by an EventEmitter.  
+This module creates an EventEmitter that logs emitted events.  
 It also adds a function to emit an event asynchronously, using process.nextTick().
 
 This module was written in TypeScript,
