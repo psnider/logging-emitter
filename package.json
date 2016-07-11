@@ -1,0 +1,25 @@
+{
+  "name": "logging-emitter",
+  "version": "1.0.0",
+  "description": "An EventEmitter that logs emitted events.",
+  "main": "logging-emitter",
+  "scripts": {
+    "build": "tsc --project src; tsc --project test",
+    "clean": "rm -f logging-emitter.js",
+    "test": "NODE_PATH=$NODEPATH:. mocha test/logging-emitter.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psnider/logging-emitter.git"
+  },
+  "author": "Peter Snider",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0"
+  },
+  "typings": "./logging-emitter.d.ts"
+}
